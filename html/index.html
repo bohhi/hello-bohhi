@@ -21,13 +21,6 @@
                 overflow-y: scroll;
                 overflow-x: hidden; 
             }
-            
-            button{
-                background-color: rgb(255, 175, 255);
-                padding: 10px;
-                text-align: center;
-                border-radius: 10px;
-            }
             h1 {
                 text-align: center;
                 font-size: 90px;
@@ -63,21 +56,23 @@
                 background-color: rgb(247, 181, 243);
                 color: white;
             }
-            .logo {
-                position:fixed;
-                background: transparent;
-                width: 50px;
-                left: 20px;
-            }
+ /*-Need to improve this later on when I understand what the fuck I'm doing with grid and placing elements with CSS (.links)*/
             .links {
-                overflow: hidden;
                 text-align: center;
-                margin: 30px;
                 display:grid;
+                font-size: 15px;
                 grid-auto-flow: column;
                 letter-spacing: 2px;
-                
             }
+
+            a {
+                color: rgb(255, 106, 183);
+            }
+            .links a:hover{
+                background-color:transparent;
+                color: rgb(255, 65, 163);
+             }
+             
             
             
         </style>
@@ -93,25 +88,20 @@
 
         <h1>Hi, I'm Diana!</h1>
         <h2>I'm learning HTML, CSS and JavaScript.</h2>
-    
-        <img src= https://i.pinimg.com/originals/12/ba/72/12ba72f0e3f84c4669cd8734d90ab395.png width="100">
-        
-        <button type="button">Click for a smile</button>
-
-       
-
+<!--Need to improve this later on when I understand what the fuck I'm doing with grid and placing elements with CSS-->
        <div class="links">
-             <a href="#"> Twitter </a>
-             <a href="#"> Github </a>
+             <a href="https://twitter.com/IamBohhi" target="_blank"> Twitter </a>
+             <a href="https://github.com/bohhi" target="_blank"> Github </a>
              <p>🍒🍓</p>
-             <a href="#"> Instagram </a>
-             <a href="#"> Email </a>
+             <a href="https://www.instagram.com/iambohhi" target="_blank"> Instagram </a>
+             <a href="https://www.artstation.com/bohhi" target="_blank"> Artstation </a>
              
        </div>
 
        <footer>
         <p>Contact me:</p>
         <a href="bohhi@hotmail.com">bohhi@hotmail.com</a>
+        
     </footer>
 
 
